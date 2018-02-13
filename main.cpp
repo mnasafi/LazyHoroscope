@@ -13,7 +13,10 @@ int main()
     
     string firstName;
     string lastName;
- 
+    string nickName ="";
+
+    
+
     int repeatAmount;
 
     //get user input
@@ -28,25 +31,14 @@ int main()
     cin >> lastName;
 
 
-/*
-    // test and use varialbes
+    // pushback first characters of name to nickname with dots in between
+    //push_back is the function for character only. takes single character and stores into nickName
+    nickName.push_back(firstName[0]);
+    nickName.push_back('.');
+    nickName.push_back(lastName[0]);
+    nickName.push_back('.');
 
-    cout << "How many times should I repeat your name?\n";
-    cin >> repeatAmount;
-
-
-    // for loop to repeat name x times
-
-    for(int x = 0;  x < repeatAmount; x++ )
-    {
-        cout << "Your full name is: " << firstName << " " << lastName << endl;
-
-    } // end for loop
-
-*/
-
-
-
+    cout << "Welcome, " << nickName << " here is your fortune..." << endl;
 
 
     //tell fortune
