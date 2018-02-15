@@ -14,7 +14,7 @@ int main()
     string firstName;
     string lastName;
     string nickName ="";
-
+    int lucky;
     
 
     int repeatAmount;
@@ -42,6 +42,10 @@ int main()
 
 
     //tell fortune
+
+    lucky = firstName.length();
+    cout << "Your lucky number is: " << lucky << endl;  // display lucky number
+    
 
 
   //end program  
