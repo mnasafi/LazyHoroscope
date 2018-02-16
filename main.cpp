@@ -80,7 +80,7 @@ int main()
 
     if(Ln[lastChar - 1] == 'a' || Ln[lastChar - 1] == 'e' || Ln[lastChar - 1 ] == 'i' || Ln[lastChar - 1] == 'o' || Ln[lastChar - 1] == 'u')
     {
-        cout << "You have already met your true love.\n";
+        cout << "you have already met your true love.\n";
     
     }
 
