@@ -24,12 +24,12 @@ int main()
 
     //get user input
 
-    cout << "Hello!\n";
-    cout << "What's your first name?\n";
+
+    cout << "What is your first name?\n";
 
     cin >> firstName;
 
-    cout << "What's your last name?\n";
+    cout << "What is your last name?\n";
     
     cin >> lastName;
 
@@ -41,7 +41,7 @@ int main()
     nickName.push_back(lastName[0]);
     nickName.push_back('.');
 
-    cout << "Welcome, " << nickName << " here is your fortune..." << endl;
+    cout << "Welcome, " << nickName << ", here is your fortune..." << endl;
 
 
     //tell fortune
