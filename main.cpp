@@ -16,10 +16,11 @@ int main()
     string nickName ="";
     int lucky;
     
-    string f; // firstName 
-    string l; // lastName for if statement
 
-    int repeatAmount;
+    string f; // firstName 
+    string Ln; // lastName for if statement
+
+    
 
     //get user input
 
@@ -53,7 +54,7 @@ int main()
 
     //initialize variables
     f = firstName;
-    l = lastName;
+    Ln = lastName;
 
     if(f[0]=='a' || f[0]=='A' || f[0]=='e' || f[0]=='E' || f[0]=='i' || f[0]=='I' || f[0]=='o' || f[0]=='O' || f[0]=='u' || f[0]=='U' )
     {
@@ -75,6 +76,13 @@ int main()
     firstName[len -1]
     */
 
+    int lastChar = lastName.length();
+
+    if(Ln[lastChar - 1] == 'a' || Ln[lastChar - 1] == 'e' || Ln[lastChar - 1 ] == 'i' || Ln[lastChar - 1] == 'o' || Ln[lastChar - 1] == 'u')
+    {
+        cout << "You have already met your true love.\n";
+    
+    }
 
 
     cout << "Have a good day!\n";
