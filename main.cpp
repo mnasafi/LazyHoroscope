@@ -47,7 +47,7 @@ int main()
     //tell fortune
 
     lucky = firstName.length();
-    cout << "Your lucky number is: " << lucky << endl;  // display lucky number
+    cout << "your lucky number is " << lucky << endl;  // display lucky number
     
 
     //part 2
@@ -58,14 +58,14 @@ int main()
 
     if(f[0]=='a' || f[0]=='A' || f[0]=='e' || f[0]=='E' || f[0]=='i' || f[0]=='I' || f[0]=='o' || f[0]=='O' || f[0]=='u' || f[0]=='U' )
     {
-        cout << "You should keep a low profile.\n";
+        cout << "you are destined to be famous!\n";
 
     }
 
     else
     {
 
-        cout << "You are destined to be famous!\n";
+        cout << "you should keep a low profile.\n";
 
     } //end if else
 
@@ -85,7 +85,7 @@ int main()
     }
 
 
-    cout << "Have a good day!\n";
+    cout << "have a good day!\n";
 
 
   //end program  
